@@ -5,6 +5,9 @@ body{
     text-align: center;
     margin-top: 100px;
     font-family: cursive;
+    font-size: 50px;
+    position: relative;
+
 }
 
 footer {
@@ -15,7 +18,6 @@ footer {
     padding: 100px 0 30px;
     border-top-left-radius: 125px;
     font-size: 13px;
-    
     line-height: 20px;
 }
 .row {
@@ -27,7 +29,7 @@ footer {
     justify-content: space-between;
 }
 .col{
-    flex-basis: 25%;
+    flex-basis: 18%;
     padding: 10px;
 }
 .col:nth-child(2), .col:nth-child(3){
@@ -35,7 +37,6 @@ footer {
 }
 .logo {
     width: 80px;
-    /* margin-bottom: 5px; */
 }
 .col h3{
     width: fit-content;
@@ -60,7 +61,6 @@ form{
     padding-bottom: 15px;
     display: flex;
     align-items: center;
-    /* border: 1px solid #ccc; */
     justify-content: space-between;
     margin-bottom: 50px;
 }
@@ -80,13 +80,13 @@ form button{
     border: 0;
     outline: none;
     cursor: pointer;
-    margin-right: 130px;
+    margin-right: 40px;
 }
 form button .fas{
     font-size: 16px;
     color: #ccc;
 }
-.social-icons .media{
+.media{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -98,7 +98,7 @@ form button .fas{
     margin-right: 15px;
     cursor: pointer;
 } 
-.social-icons .media1{
+.media1{
     width: 155px;
     height: 40px;
     border-radius: -5%;
@@ -108,6 +108,7 @@ form button .fas{
     color: #000;
     background: #fff;
     margin-right: 15px;
+    margin-top: 30px;
     cursor: pointer;
 }
 hr{
